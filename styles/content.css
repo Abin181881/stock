@@ -1,0 +1,578 @@
+.body{
+  height:10000px;
+  padding-top:60px;
+  font-family:'Baskervville','Roboto-condensed','Acme',Abel;
+}
+.div{
+   font-family:'Baskervville','Roboto-condensed','Acme',Abel;
+}
+.content{
+  margin-left:165px;
+  margin-top:20px;
+  height:270px;
+  display:flex;
+  border-width:1px;
+  border-color:rgb(231, 204, 204);
+  justify-content:space-between;
+  width:1100px;
+}
+.content-1{
+  margin-top:20px;
+  height:180px;
+  display:flex;
+  border-width:1px;
+  border-color:rgb(231, 204, 204);
+  justify-content:space-between;
+  width:1100px;
+  position:relative;
+}
+.details{
+  margin-top:50px;
+  top:30px;
+  right:0;
+  left:0;
+  display:grid;
+  grid-template-columns:250px 250px 250px 250px;
+  gap:20px;
+  height:140px;
+  margin-right:40px;
+  padding-top:10px;
+  padding-right:200px;
+
+}
+.details-1{
+  max-width:450px;
+  position:absolute;
+  overflow-x: auto;     
+  scroll-behavior: smooth;
+  scrollbar-width:none;
+  position:absolute;
+  top:30px;
+  right:0;
+  left:0;
+  display:grid;
+  grid-auto-flow:column;
+  grid-auto-columns:250px 250px 250px 250px;
+  gap:20px;
+  height:140px;
+  padding-top:10px;
+  padding-right:200px;
+}
+.details-1::-webkit-scrollbar {
+  display: none;
+}
+.Value{
+  border-radius:6px;
+  border-style:solid;
+  border-width:2px;
+  border-color:rgb(231,204,204);
+  padding-left:10px;
+  margin-left:10px;
+  padding-top:20px;
+  font-size:20px;
+}
+.users{
+  border-radius:6px;
+  border-style:solid;
+  border-width:2px;
+  border-color:rgb(231,204,204);
+  padding-left:20px;
+  padding-top:20px;
+  font-size:20px;
+}
+.apple,
+.paypal,
+.tesla,
+.amazon,
+.apple-1,
+.paypal-2,
+.tesla-3,
+.amazon-4,
+.spotify-1,
+.airbnb-1,
+.envato-1{
+  border-radius:6px;
+  border-style:solid;
+  border-width:2px;
+  border-color:rgb(231,204,204);
+  padding-left:20px;
+  padding-top:20px;
+  font-size:20px;
+}
+.apple-img,
+.paypal-img,
+.tesla-img,
+.amazon-img,
+.apple-img-1,
+.paypal-img-2,
+.tesla-img-3,
+.amazon-img-4,
+.spotify-img-1,
+.envato-img-1,
+.airbnb-img-1{
+  display:inline-block;
+  font-size:20px;
+  height:40px;
+  margin-right:7px;
+  padding-bottom:2px;
+}
+.apple-flex,
+.paypal-flex,
+.tesla-flex,
+.amazon-flex,
+.apple-flex-1,
+.paypal-flex-2,
+.tesla-flex-3,
+.amazon-flex-4,
+.spotify-flex-1,
+.airbnb-flex-1,
+.envato-flex-1{
+  display:flex;
+  align-items:flex-start;
+}
+.near-apple-img,
+.near-paypal-img,
+.near-tesla-img,
+.near-amazon-img,
+.near-amazon-img-1,
+.near-paypal-img-2,
+.near-tesla-img-3,
+.near-amazon-img-4,
+.near-spotify-img-1,
+.near-airbnb-img-1,
+.near-envato-img-1{
+  width:90px;
+}
+.apple-tag,
+.paypal-tag,
+.tesla-tag,
+.amazon-tag,
+.apple-tag-1,
+.paypal-tag-2,
+.tesla-tag-3,
+.amazon-tag-4,
+.spotify-tag-1,
+.envato-tag-1,
+.airbnb-tag-1{
+  font-size:13px;
+}
+.nifty-100,
+.nifty-bank{
+  display:block;
+}
+.cost{
+  border-radius:6px;
+  border-style:solid;
+  border-width:2px;
+  border-color:rgb(231,204,204);
+  padding-left:10px;
+  margin-right:10px;
+  font-size:20px;
+  padding-top:20px;
+}
+.apple .budget1,
+.paypal .budget2,
+.tesla .budget3,
+.amazon .budget4,
+.paypal-2 .budget-2,
+.tesla-3 .budget-3,
+.amazon-4 .budget-4{
+  display:inline-block;
+  font-size:20px;
+  padding-top:10px;
+  margin-left:0;
+  padding-bottom:4px;
+}
+.apple-1 .budget-1{
+  display:inline-block;
+  font-size:20px;
+  padding-top:10px;
+  margin-left:0;
+  padding-bottom:4px;
+}
+.apple-1 .per-1{
+  display:inline-block;
+  font-size:12px;
+  padding-top:5px;
+  border-radius:12px;
+  border-style:solid;
+  border-color:black;
+  border-width:2px;
+  padding-right:2px;
+  padding-left:2px;
+  padding-bottom:2px;
+  background-color:gray;
+  cursor:pointer;
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom:9px;
+}
+.apple .per1,
+.paypal .per2,
+.tesla .per3,
+.amazon .per4,
+.paypal-2 .per-2,
+.tesla-3 .per-3,
+.amazon-4 .per-4{
+  display:inline-block;
+  font-size:12px;
+  padding-top:5px;
+  border-radius:12px;
+  border-style:solid;
+  border-color:black;
+  border-width:2px;
+  padding-right:2px;
+  padding-left:2px;
+  padding-bottom:2px;
+  background-color:gray;
+  cursor:pointer;
+}
+.new-div{
+  display:grid;
+  grid-template-columns:380px 400px;
+  column-gap:200px;
+}
+.user-growth{
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+  border-radius:6px;
+  border-color:rgb(231, 204, 204);
+  margin-left:300px;
+  height:120px;
+  width:220px;
+  font-size:20px;
+  color:black;
+  padding-left:20px;
+  padding-top:10px;
+  padding-right: 40px;
+}
+.portfolio-new{
+  margin-left:166px;
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+  border-radius:6px;
+  border-color:rgb(231, 204, 204);
+  padding-top:10px;
+  font-size:20px;
+  margin-right:300px;
+  height:450px;
+  width:650px;
+  padding-right:32px;
+}
+.portfolio{
+  display:flex;
+  justify-content:flex-start;
+  padding-left:30px;
+  align-items:center;
+  flex-wrap: nowrap;
+}
+.below-portfolio{
+  padding-left:30px;
+  font-size:10px;
+  padding-top:10px;
+}
+.performance{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding-top:10px;
+  padding-left:10px;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgb(207, 179, 179);
+  border-radius:6px;
+  margin-left:200px;
+  margin-top:10px;
+  padding-bottom:10px;
+  height:25px;
+  padding-right:10px;
+  background-color:lightcyan;
+}
+.sales{
+  display:inline-block;
+  border-width:1px;
+  border-style:solid;
+  font-size:10px;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  background-color:white;
+  padding:8px;
+}
+.online-sales,
+.new-users{
+  font-size:10px;
+  margin-left:10px;
+}
+.sales:hover{
+  opacity:0.8;
+  border-color:black;
+  cursor:pointer;
+}
+.below-per{
+  display:flex;
+  justify-content:space-between;
+  margin-top:8px;
+  border-width:1px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  height:310px;
+  margin-left:30px;
+  padding-top:20px;
+}
+.dividend-rate{
+  position:relative;
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  margin-left:300px;
+  height:350px;
+  width:282px;
+  font-size:20px;
+  color:black;
+  padding-left:20px;
+  padding-right:40px;
+  padding-top:10px;
+}
+.dividend-header{
+  display:flex;
+  justify-content:space-between;
+}
+.graphs{
+  margin-top:10px;
+  border-width:1px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  width:280px;
+  height:280px;
+  padding:10px;
+}
+.dot-img{
+  height:10px;
+  display:inline;
+}
+.new-box{
+  position:absolute;
+  height:65px;
+  width:100px;
+  border-width:0.5px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  right:0;
+  top:30px;
+  opacity:0;
+  background-color:white;
+}
+.new-box-ref:hover .new-box{
+  opacity:1;
+}
+.new-box-ref{
+  position:relative;
+  cursor:pointer;
+}
+.view-more
+{
+  font-size:10px;
+  background-color:lightblue;
+  border-style:solid;
+  border-width:0.5px;
+  border-radius:4px;
+  border-color:rgb(231, 204, 204);
+  height:25px;
+  padding-left:20px;
+  margin-top:4px;
+  margin-bottom:2px;
+  opacity:0;
+  margin-left:4px;
+  margin-right:4px;
+}
+.delete{
+  font-size:10px;
+  background-color:lightblue;
+  border-width:1px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  height:25px;
+  border-radius:4px;
+  padding-left:20px;
+  opacity:0;
+  margin-left:4px;
+  margin-right:4px;
+}
+.view-more:hover,
+.delete:hover{
+  opacity:1;
+}
+.Trending-watchlist{
+  display:grid;
+  margin-top:10px;
+  margin-left:166px;
+  column-gap:30px;
+  grid-template-columns:685px 348px;
+}
+.trending-stocks{
+  border-width:1px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  height:250px;
+  font-size:20px;
+  padding-left:20px;
+  padding-top:20px;
+}
+.watchlist-box1{
+  font-size:10px;
+  display:flex;
+  flex-direction:column;
+  row-gap:40px;
+  border-width:1px;
+  min-width:320px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:rgb(231, 204, 204);
+  right:10px;
+  top:676px;
+  left:890px;
+  margin-right:108px;
+  padding-left:20px;
+  height:358px;
+  overflow-y: auto;     
+  scroll-behavior: smooth;
+  scrollbar-width:none;
+  max-height:450px;
+  position:absolute;
+
+}
+.watchlist-box1::-webkit-scrollbar {
+  display: none;
+}
+.watchlist-box1 .budget-1,.budget-2,.budget-3,.budget-4{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  margin-left:60px;
+  padding-bottom:4px;
+}
+.watchlist-box1 .per-1,.per-2,.per-3,.per-4{
+  display:flex;
+  justify-content:flex-end;
+  font-size:12px;
+  border-radius:10px;
+  border-style:solid;
+  border-color:black;
+  border-width:2px;
+  background-color:gray;
+  cursor:pointer;
+  padding:5px;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:9px;
+}
+.watchlist-box1 .apple-1,.spotify-1,.airbnb-1,.envato-1{
+  display:flex;
+  flex-direction:row;
+  padding:0;
+  margin-right:10px;
+  border-bottom-width:1px;
+  border-left-width:0;
+  border-top-width:0;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+  border-right-width:0;
+  padding-bottom:10px;
+}
+.my-watchlist{
+  font-size:25px;
+  margin-top:10px;
+}
+.buttons1,
+.buttons2,
+.buttons3,
+.buttons4{
+  display:flex;
+  justify-content:space-between;
+
+}
+.buy1,
+.buy2,
+.buy3,
+.buy4{
+  margin-top:8px;
+  background-color:blue;
+  color:white;
+  border-radius:10px;
+  border-width:2px;
+  background-color:gray;
+  margin-bottom:0;
+}
+.sell1,
+.sell2,
+.sell3,
+.sell4{
+  margin-top:8px;
+  margin-right:90px;
+  background-color:blue;
+  color:white;
+  border-radius:10px;
+  border-width:2px;
+  background-color:gray;
+  margin-bottom:0;
+}
+.main-div{
+  margin-top:20px;
+  border-width:1px;
+  border-radius:6px;
+  border-style:solid;
+  margin-left:167px;
+  width:1055px;
+  height:300px;
+}
+.transaction-list{
+  display:flex;
+  align-content:center;
+  justify-content:space-between;
+  flex-direction: row;
+  border-style:solid;
+  border-color:gray;
+  border-bottom-width:1px;
+  border-top-width:0;
+  border-left-width:0;
+  border-right-width:0;
+  padding-bottom:30px;
+  margin-right:30px;
+  margin-left:20px;
+  margin-top:30px;
+}
+.img-pypl{
+  width:20px;
+  height:20px;
+}
+.pypl-1,
+.pypl-2,
+.pypl-3{
+  display:flex;
+  gap:8px;
+}
+.division{
+  display:grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  justify-content:space-between;
+  margin-left:20px;
+  margin-top:20px;
+}
+.sub-division-1,
+.sub-division-2,
+.sub-division-3,
+.sub-division-4,
+.sub-division-5{
+  display:grid;
+  grid-template-rows:50px 50px 50px 50px;
+}
+

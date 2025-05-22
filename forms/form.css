@@ -1,0 +1,239 @@
+.form-top-layer{
+  display:flex;
+  justify-content:space-between;
+  margin-top:80px;
+  margin-bottom:30px;
+  white-space: nowrap;
+}
+.form-element{
+  margin-left:250px;
+  font-size:20px;
+  font-family:Roboto;
+}
+.home{
+  margin-left:790px;
+}
+.elements{
+  padding-right:130px;
+}
+.Inputs{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 720px 650px;
+  white-space: nowrap;
+  column-gap:20px;
+}
+.account{
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  height:450px;
+  margin-left:250px;
+  min-width: 300px;
+  white-space: nowrap;
+  padding-left:10px;
+  font-size:25px;
+  font-style:bold;
+  font-family:serif;
+  padding-top:10px;
+}
+.block-input,
+.gmail,
+.password,
+.confirm-pass{
+  margin-top:10px;
+  font-size:20px;
+  font-family:serif;
+}
+.search-box,
+.gmail-info,
+.pass-info{
+  margin-top:10px;
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  width:430px;
+  height:30px;
+}
+.conf-info{
+  margin-top:10px;
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  width:430px;
+  height:30px;
+}
+.create-account{
+  height:40px;
+  width:150px;
+  display:inline-block;
+  margin-top:10px;
+  border-style:solid;
+  border-color:black;
+  border-radius:6px;
+  background-color:blue;
+  margin-left:125px;
+}
+.create-account::placeholder{
+  color:white;
+  padding-left:25px;
+}
+.Under-pass{
+  margin-top:20px;
+}
+.Under-pass div{
+  margin-top:10px;
+  font-size:20px;
+  font-family:serif;
+  display:inline-block;
+  padding-left:5px;
+}
+.Tick-button{
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  height:20px;
+  width:20px;
+}
+.near-input{
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  height:650px;
+  margin-right:182px;
+  min-width: 300px;
+  white-space: nowrap;
+}
+.info{
+  font-size:25px;
+  font-style:bold;
+  font-family:serif;
+  padding-left:10px;
+  padding-top:10px;
+}
+.first-name,
+.city,
+.post-code{
+  padding-left:10px;
+  padding-top:10px;
+}
+.last-name{
+  padding-top:10px;
+  margin-right:198px;
+}
+.country{
+  padding-top:10px;
+  margin-right:208px;
+}
+.state{
+  padding-top:10px;
+  margin-right:230px;
+}
+.names,
+.place,
+.country-details{
+  display:flex;
+  justify-content:space-between;
+}
+.input-boxes,
+.place-box,
+.country-box{
+  padding-top:10px;
+  display:flex;
+  justify-content:space-between;
+}
+.input-first,
+.city-input,
+.post-input{
+  margin-left:10px;
+  height:30px;
+}
+.input-last{
+  height:30px;
+  margin-right:92px;
+}
+.country-input{
+  height:30px;
+  margin-right:83px;
+}
+.gender,
+.dob,
+.pan-num{
+  margin-top:10px;
+  font-size:20px;
+  font-family:serif;
+  margin-left:10px;
+}
+.gender-info,
+.pan-info{
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  width:430px;
+  height:30px;
+  margin-top:10px;
+  margin-left:10px;
+}
+.dob-info{
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  width:430px;
+  height:30px;
+  margin-top:10px;
+  margin-left:10px;
+  position:relative
+}
+.calender{
+  position:absolute;
+  margin-left:400px;
+  margin-top:8px;
+  width:17px;
+}
+.dob-tag{
+  display:flex;
+  align-items:center;
+}
+.head-address{
+  margin-left:10px;
+  margin-top:20px;
+  font-size:20px;
+  font-family:serif;
+  margin-bottom:10px;
+}
+.state-input{
+  height:30px;
+  margin-right:83px;
+}
+.save-changes{
+  height:35px;
+  width:100px;
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  margin-left:10px;
+  margin-top:30px;
+  display:inline-block;
+  background-color:blue;
+  color:white
+}
+.Cancel{
+  display:inline-block;
+  height:35px;
+  width:70px;
+  border-style:solid;
+  border-color:gray;
+  border-radius:6px;
+  border-width:1px;
+  margin-left:10px;
+  margin-top:30px;
+}
+
