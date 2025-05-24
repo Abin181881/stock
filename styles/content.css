@@ -1,10 +1,10 @@
 .body{
   height:10000px;
   padding-top:60px;
-  font-family:'Baskervville','Roboto-condensed','Acme',Abel;
+  font-family: 'Poppins', sans-serif;
 }
 .div{
-   font-family:'Baskervville','Roboto-condensed','Acme',Abel;
+  font-family: 'Poppins', sans-serif;
 }
 .content{
   margin-left:165px;
@@ -533,6 +533,7 @@
   margin-left:167px;
   width:1055px;
   height:300px;
+  border-color:lightgray;
 }
 .transaction-list{
   display:flex;
