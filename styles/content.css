@@ -412,7 +412,7 @@
 }
 .Trending-watchlist{
   display:grid;
-  margin-top:10px;
+  margin-top:20px;
   margin-left:166px;
   column-gap:30px;
   grid-template-columns:685px 348px;
@@ -576,4 +576,66 @@
   display:grid;
   grid-template-rows:50px 50px 50px 50px;
 }
-
+.below-latest-trans{
+  display:grid;
+  grid-template-columns:330px 330px 330px;
+  justify-content:space-between;
+  margin-top:20px;
+  height:300px;
+}
+.top-gain,
+.top-loser,
+.Most-active{
+  border-radius:6px;
+  border-width:1px;
+  border-style:solid;
+  border-color:gray;
+  padding-left:10px;
+  display:grid;
+  grid-template-rows:30px 100px 100px 100px;
+}
+.below-mrus,
+.below-rgc,
+.below-uec,
+.below-deck,
+.below-mns,
+.below-bah,
+.below-nvda,
+.below-qbts,
+.below-rgti{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+  font-size:10px;
+  padding-right:20px;
+}
+.mrus,
+.rgc,
+.uec,
+.deck,
+.mns,
+.bah,
+.nvda,
+.qbts,
+.rgti{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+  font-size:15px;
+  padding-right:20px;
+  padding-top:20px;
+}
+.hover-uec:hover,
+.hover-rgc:hover,
+.hover-mrus:hover,
+.hover-deck:hover,
+.hover-mns:hover,
+.hover-bah:hover,
+.hover-nvda:hover,
+.hover-qbts:hover,
+.hover-rgti:hover{
+  background-color:lightgray;
+  margin-right:10px;
+  margin-bottom:10px;
+  border-radius:6px;
+}
