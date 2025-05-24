@@ -589,10 +589,11 @@
   border-radius:6px;
   border-width:1px;
   border-style:solid;
-  border-color:gray;
+  border-color:lightgray;
   padding-left:10px;
   display:grid;
   grid-template-rows:30px 100px 100px 100px;
+
 }
 .below-mrus,
 .below-rgc,
