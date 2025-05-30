@@ -1,7 +1,14 @@
+.body{
+  height:1000px;
+  font-family: 'Poppins', sans-serif;
+}
+
 .ipo-header{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  margin-top:70px;
+  margin-left:165px;
 }
 .download{
   margin-right:20px;
@@ -27,6 +34,7 @@
   border-right:0;
   padding-bottom:10px;
   cursor:pointer;
+  margin-left:160px;
 }
 .search-box{
   height:30px;
@@ -56,6 +64,7 @@
   display:grid;
   grid-template-columns:3fr 1fr 1fr 2fr ;
   align-items:center;
+  margin-left:160px;
 }
 .search-image{
   display:flex;
@@ -86,13 +95,19 @@
 }
 .below-search-bar{
   display:grid;
-  grid-template-columns:200px 150px 150px 150px 150px 180px 150px 150px ;
+  grid-template-columns:250px 150px 150px 150px 150px 180px 150px 150px ;
   margin-top:20px;
   align-items:center;
+  margin-left:10px;
+  overflow-y: auto;     
+  scroll-behavior: smooth;
+  scrollbar-width:none;
+  max-height:400px;
+  margin-left:160px;
 }
 .company-name,.symbol,.listed-on,.issue-price,.listing-day-close,.listing-day-gain-loss,.ltp,.gain-loss{
   display:grid;
-  grid-template-rows:40px 60px 60px;
+  grid-template-rows:40px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
 }
 .below-company-name,.below-symbol,.below-listed-on,.below-listing-day-close,.below-listing-day-gain-loss,.below-ltp,.below-gain-loss,.below-issue-price{
   border-width:0.5px;
@@ -100,7 +115,7 @@
   background-color:lightgray;
   padding-left:4px;
 }
-.belrise,.dar,.belrise-sym,.dar-sym,.date-1,.date-2,.price-1,.price-2,.close-1,.close-2,.listing-gain-loss-1,.listing-gain-loss-2,.ltp-1,.ltp-2,.gain-loss-1,.gain-loss-2{
+.belrise,.dar,.belrise-sym,.dar-sym,.date-1,.date-2,.price-1,.price-2,.close-1,.close-2,.listing-gain-loss-1,.listing-gain-loss-2,.ltp-1,.ltp-2,.gain-loss-1,.gain-loss-2,.borana,.borana-sym,.date-3,.price-3,.close-3,.listing-gain-loss-3,.ltp-3,.gain-loss-3,.accretion,.integrity,.virtual,.arunaya,.ather,.iware,.accpl-sym,.integrity-sym,.vginfotech-sym,.arunaya-sym,.ather-sym,.iware-sym,.date-4,.price-4,.close-4,.listing-gain-loss-4,.ltp-4,.gain-loss-4,.date-5,.price-5,.close-5,.listing-gain-loss-5,.ltp-5,.gain-loss-5,.date-6,.price-6,.close-6,.listing-gain-loss-6,.ltp-6,.gain-loss-6,.date-7,.price-7,.close-7,.listing-gain-loss-7,.ltp-7,.gain-loss-7,.date-8,.price-8,.close-8,.listing-gain-loss-8,.ltp-8,.gain-loss-8,.date-9,.price-9,.close-9,.listing-gain-loss-9,.ltp-9,.gain-loss-9{
   border-style: solid;
   border-bottom-width:1px;
   border-color:lightgray;
@@ -108,6 +123,6 @@
   border-top:0;
   border-right:0;
 }
-.listing-gain-loss-1,.listing-gain-loss-2,.gain-loss-1,.gain-loss-2{
+.listing-gain-loss-1,.listing-gain-loss-2,.gain-loss-1,.gain-loss-2,.listing-gain-loss-3,.gain-loss-3,.listing-gain-loss-4,.gain-loss-4,.listing-gain-loss-5,.gain-loss-5,.listing-gain-loss-6,.gain-loss-6,.listing-gain-loss-7,.gain-loss-7,.listing-gain-loss-8,.gain-loss-8,.listing-gain-loss-9,.gain-loss-9{
   color:gray;
 }
