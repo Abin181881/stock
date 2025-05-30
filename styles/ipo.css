@@ -1,0 +1,113 @@
+.ipo-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.download{
+  margin-right:20px;
+  border-style:solid;
+  border-color:lightgray;
+  border-radius:10px;
+  border-width:1px;
+  padding:10px;
+}
+.ipo-year{
+  font-size:20px;
+}
+.below-ipo-header{
+  display:flex;
+  justify-content:space-evenly;
+  margin-top:20px;
+  margin-right:10px;
+  border-style: solid;
+  border-bottom-width:1px;
+  border-color:lightgray;
+  border-left:0;
+  border-top:0;
+  border-right:0;
+  padding-bottom:10px;
+  cursor:pointer;
+}
+.search-box{
+  height:30px;
+  border-color:rgb(199, 192, 192);
+  border-width:1px;
+  width:300px;
+  border-top-right-radius:6px;
+  border-bottom-right-radius:6px;
+}
+.search-box::placeholder{
+  font-family:sans-serif;
+  font-size:12px;
+}
+.search-icon{
+  height:32px;
+  margin-right:0;
+  border-width:0.5px;
+  border-style:solid;
+  border-color:rgb(199, 192, 192);
+  border-top-left-radius:6px;
+  border-bottom-left-radius: 6px;
+  width:30px;
+  background-color:lightgray;
+  margin-right:-1px;
+}
+.below-main-details{
+  display:grid;
+  grid-template-columns:3fr 1fr 1fr 2fr ;
+  align-items:center;
+}
+.search-image{
+  display:flex;
+  margin-left:10px;
+}
+.items-per-page{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.near-entries{
+  display:flex;
+  align-items:center;
+  flex-wrap:nowrap;
+  cursor:pointer;
+  gap:4px;
+}
+.less,
+.less-than,
+.greater,
+.greater-than{
+  border-style:solid;
+  border-color:lightgray;
+  border-width:0.5px;
+  border-radius:4px;
+  padding:4px;
+  color:lightgray;
+}
+.below-search-bar{
+  display:grid;
+  grid-template-columns:200px 150px 150px 150px 150px 180px 150px 150px ;
+  margin-top:20px;
+  align-items:center;
+}
+.company-name,.symbol,.listed-on,.issue-price,.listing-day-close,.listing-day-gain-loss,.ltp,.gain-loss{
+  display:grid;
+  grid-template-rows:40px 60px 60px;
+}
+.below-company-name,.below-symbol,.below-listed-on,.below-listing-day-close,.below-listing-day-gain-loss,.below-ltp,.below-gain-loss,.below-issue-price{
+  border-width:0.5px;
+  border-style:inset;
+  background-color:lightgray;
+  padding-left:4px;
+}
+.belrise,.dar,.belrise-sym,.dar-sym,.date-1,.date-2,.price-1,.price-2,.close-1,.close-2,.listing-gain-loss-1,.listing-gain-loss-2,.ltp-1,.ltp-2,.gain-loss-1,.gain-loss-2{
+  border-style: solid;
+  border-bottom-width:1px;
+  border-color:lightgray;
+  border-left:0;
+  border-top:0;
+  border-right:0;
+}
+.listing-gain-loss-1,.listing-gain-loss-2,.gain-loss-1,.gain-loss-2{
+  color:gray;
+}
